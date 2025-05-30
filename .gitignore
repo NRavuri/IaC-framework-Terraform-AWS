@@ -39,4 +39,25 @@ terraform.rc
 .Spotlight-V100
 .Trashes
 ehthumbs.db
-Thumbs.db 
+Thumbs.db
+
+# Terraform files
+.terraform
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+terraform.exe
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Local environment files
+.env
+*.log 
